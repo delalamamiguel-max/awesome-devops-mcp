@@ -209,3 +209,44 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Created and maintained by [AgenticDevOps](https://github.com/agenticdevops) community. If you find this project helpful, please consider giving it a star ⭐
+
+
+---
+
+# Owned checkout guide
+
+## Purpose and status
+
+This owned reference fork preserves the Agentic Devops Foundation’s directory of MCP servers and clients. It is a catalog, not a deployed DevOps platform, an installed integration list or proof that listed tools are safe for an owner environment.
+
+## Repository map
+
+The tracked snapshot contains this README and [LICENSE](LICENSE). Categories cover cloud platforms, containers, infrastructure as code, observability, CI/CD, databases and related resources. There is no local application manifest, implementation or test suite.
+
+## Architecture and integrations
+
+Catalog entries lead to separate tools that may operate infrastructure, query telemetry or modify cloud resources. Integration protocols, authentication and permissions are defined in those external projects. This repository itself provides no connected backend or credential management.
+
+## Setup and environments
+
+No runtime installation or environment variables are required to inspect the directory. Before separately installing a listed tool, review its source/version, dependencies, privileges and service costs. Never copy real cloud credentials, private telemetry or infrastructure inventory into public catalog changes.
+
+## Safe commands
+
+For this documentation review, use only local inspection such as `git status --short`, `git ls-files`, `git diff -- README.md` and `git diff --check`. Read referenced scripts as text; do not install dependencies, execute examples, authenticate, run tests or publish.
+
+## Testing and validation
+
+Only new-guide Markdown structure, local paths, whitespace and original-content preservation were checked. External links, badges, tool availability and security claims remain unverified. The retained CONTRIBUTING.md badge points to a file absent from this snapshot; it is preserved as upstream material, not treated as a working local guide.
+
+## Deployment and rollback
+
+There is no tracked application deployment configuration. Publishing directory edits does not deploy listed servers, and reverting this README does not reverse infrastructure changes made by a separately installed tool. No publishing or service calls were performed.
+
+## Risks and guardrails
+
+Preserve the [MIT license](LICENSE), copyright and upstream community links. The directory’s license does not determine licenses or permissions of linked software. Tools listed under monitoring, databases or DevOps can still expose sensitive data or perform writes; assess each implementation before activation.
+
+## Related documentation
+
+Use the category and resource links retained above and the [license](LICENSE). Contribution instructions are in the README’s existing Contributing section; no standalone CONTRIBUTING.md is tracked.
